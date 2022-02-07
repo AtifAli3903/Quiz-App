@@ -1,0 +1,122 @@
+body
+{
+	margin: auto;
+	position: absolute;
+	width: 100%;
+    height: 100%;
+	font-family: 'Macondo', cursive;
+	background-image: url("bg.jpg");
+ 	background-repeat: no-repeat;
+	
+}
+#text
+{
+	justify-content:center;
+	 text-align: center;
+}
+#heading
+{       
+		height: auto;
+		margin: 20px;
+		text-align: center;
+		background: rgba(255,255,255,0.5);
+		border: 2px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+}
+
+#quiz
+{
+		margin: 20px;
+		justify-content: center;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 2px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+		
+}
+#question
+{
+	text-align: center;
+	justify-content: center;
+   padding: 20px;
+   font-size: 22px;
+   background:#006600;
+   border-radius: 10px;
+   color: #f6f6f6;
+}
+.option{
+	text-align: center;
+	justify-content: center;
+	margin:10px;
+	width: 15rem;
+	display:block;
+	padding: 10px 0 10px 0;
+	background: rgba(255,255,255,0.5);
+	color: #0000000;
+	 border: 2px solid #008CBA; 
+	border-radius: 5px;
+}
+
+.option:hover{
+	background:#D50D10;
+	color: #f6f6f6;	
+}
+#next
+{
+	font-family: 'Macondo', cursive; 
+	background-color: #4CAF50;
+	width:10%;
+	height: 4%px;
+	border: 2px solid #00038c;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	float: right;
+	 padding: 20px 20px;
+	margin: 0% 2% 2% 0%;
+	position :absolute relative;
+	justify-content: center;
+	
+}
+#next:hover{
+	background-color:rgb(106, 90, 205)
+}
+#quit
+{
+	position: absolute;
+	text-align: center;
+	width:12%;
+	height: 7%;
+	font-family: 'Macondo', cursive; 
+	background-color:  #4CAF50;
+	border: 1px solid #00038c;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	 padding: 5px 5px;
+	margin: 0 10% 2% 10% ;
+	
+}
+#quit:hover{
+		background-color:rgb(106, 90, 205)
+}
+#result
+{
+	font-size:100px;
+	 text-align: center;
+    	 height: 100px;
+    	width: 60%;
+    	position: absolute;
+    	left:20%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
